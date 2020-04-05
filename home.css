@@ -1,0 +1,60 @@
+body{padding: 0;margin: 0;background-color: #F9F9F9;width: 100%;height: 100%;font-family: 'Open Sans', 'lucida grande', 'Segoe UI', arial, verdana, 'lucida sans unicode', tahoma, sans-serif;color: black;}
+h2{font-size: 1em;display: inline;}
+img{width:100%;height:100%;}
+#page-head{padding:10px 4px;}
+.head-links{margin:1% 0% 1% 0%;text-align: right;}
+.head-links a{text-decoration: none;color: cadetblue;font-size: 18px;font-weight: normal;margin-right: 4%;}
+.head-links a:hover{text-decoration: underline;color: orange;}
+.heading h1{font-weight: normal;margin: 0px;color: #333a4b;padding-left: 16px;}
+.heading hr{margin-top: 0px;}
+#page-body{width: 99%;padding: 0px 4px;overflow: auto;}
+.body-left{float: left;width: 75%;text-align: justify;}
+.body-right{float: right;width: 25%;}
+.body-right a{text-decoration: none;color: black;}
+.body-right a:hover{text-decoration: underline;color: orange;}
+.body-right p{margin-bottom: 2px;}
+.body-right .mail-head{margin: 0px;}
+.body-right .mail{margin: 0px 6px;}
+.body-right .img-cont{height:293px;border: 1px solid;width:293px;}
+.section-cont{width: 85%;margin:2% 0% 2% 3%;}
+.section-cont .sec-head{text-decoration: underline;font-size: 20px;color: #333a4b}
+.section-cont .sec-body{margin:8px; line-height: 1.4em;}
+.body-left hr{width: 50%;margin: auto;}
+#social-cont{overflow: auto;}
+a.social-link{float: left;width: 18%;cursor: pointer;margin-right:2%;text-align: center;background-color:#EEE;color: #666;padding: 2px;border-radius: 4px;-moz-border-radius:4px;}
+a.social-link:hover{text-decoration: none;color: white;}
+a.social-link.facebook:hover{background-color: #3B5998;}
+a.social-link.linkedin:hover{background-color: #4875B4;}
+a.social-link.quora:hover{background-color: #a82400;}
+a.social-link.twitter:hover{background-color: #33CCFF;}
+.link-img{font-size: 20px; font-weight: bold;}
+.link-text{font-size: 12px; }
+#page-foot{font-size: 10px;text-align: center;padding-bottom: 10px;}
+.bold{font-weight: bold;}
+a.designer-name{text-decoration:none;}
+
+
+#quote-prim{
+	font-weight: bold;
+	font-style: italic;
+}
+
+#quote-sec{
+	font-style: italic;
+	display: inline;
+}
+
+.sec-body img.wp-smiley{
+	width: auto;
+	height: auto;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+#prof a{
+	color:#3B5998;
+	text-decoration: none;
+}

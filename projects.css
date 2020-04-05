@@ -1,0 +1,40 @@
+#projects-wip{
+	font-weight: normal;margin: 0px;color: #333a4b;padding-left: 211px;padding-top: 48px;font-family: georgia;font-size: 20;
+}
+
+body{padding: 0;margin: 0;background-color: #F9F9F9;width: 100%;height: 100%;font-family: 'Open Sans', 'lucida grande', 'Segoe UI', arial, verdana, 'lucida sans unicode', tahoma, sans-serif;color: black;}
+.image-wip{padding-top:100px;height:220px;width:220px;margin:auto;padding-right: 256;display:none;}
+.proj-heading hr{margin-top: 0px;}
+.proj-heading h1{font-weight: normal;margin: 0px;color: #333a4b;padding-left: 16px;}
+.proj-heading hr{margin-top: 0px;}
+.proj-head{text-decoration: underline;font-size: 20px;color: #333a4b}
+.proj-body{margin:8px; line-height: 1.4em;}
+.proj-body {width: 85%;}
+
+.proj-technology{  margin: -16px; margin-left: 2px;}
+.proj-technology ul{font-weight: 500;}
+#page-head{padding:10px 4px;  margin-top: 0px;}
+ 
+.head-links{margin:1% 0% 1% 0%;text-align: right;}
+.head-links a{text-decoration: none;color: cadetblue;font-size: 18px;font-weight: normal;margin-right: 4%;}
+.head-links a:hover{text-decoration: underline;color: orange;}
+
+.body-left{float: left;width: 75%;text-align: justify;}
+.body-left hr{width: 50%;margin: auto;}
+
+.body-right{float: right;width: 25%;}
+.body-right a{text-decoration: none;color: black;}
+.body-right a:hover{text-decoration: underline;color: orange;}
+.body-right p{margin-bottom: 2px;}
+.body-right .mail-head{margin: 0px;}
+.body-right .mail{margin: 0px 6px;}
+.body-right .img-cont{height:220px;border: 1px solid;width:220px;}
+a.social-link{float: left;width: 18%;cursor: pointer;margin-right:2%;text-align: center;background-color:#EEE;color: #666;padding: 2px;border-radius: 4px;-moz-border-radius:4px;}
+a.social-link:hover{text-decoration: none;color: white;}
+a.social-link.facebook:hover{background-color: #3B5998;}
+a.social-link.linkedin:hover{background-color: #4875B4;}
+a.social-link.quora:hover{background-color: #a82400;}
+a.social-link.twitter:hover{background-color: #33CCFF;}
+.link-img{font-size: 20px; font-weight: bold;}
+.link-text{font-size: 12px; }
+img{width:100%;height:100%;}

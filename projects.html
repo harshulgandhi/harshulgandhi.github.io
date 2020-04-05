@@ -1,0 +1,317 @@
+<html>
+<head>
+	<title>
+		Harshul Gandhi-Projects
+	</title>
+	<link rel="stylesheet" type="text/css" href="projects.css">
+	<script src="jquery-2.1.4.min.js"></script>
+</head>
+<body>
+	<!--div id="projects-wip">This page will be up soon. For the time being, please refer to my <a target="_blank" href="Resume_Harshul_Gandhi.pdf">Resume</a> and <a target="_blank" href="https://sg.linkedin.com/in/harshulgandhi">LinkedIn profile</a>!!</div>
+	<div class="image-wip"><img  src="Under_Construction_Sign.jpg"></div-->
+	<div id="page-head">
+	<div class="head-links">
+			<a href="index.html#aboutme">About Me</a>
+			<a href="index.html#prof">Professional</a>
+			<a href="index.html#acads">Academics</a>
+			<a href="projects.html">Projects</a>
+			<a href="index.html#social">Social & Organisational</a>
+			<a target="_blank" href="Resume_Harshul_Gandhi.pdf">Resume</a>
+	</div>
+	<div class="proj-heading">
+				<h1>Projects</h1>
+				<hr/>
+	</div>
+	</div>
+
+	<div class="page-body">
+		<div class="body-left">
+		<ul>
+			<li>
+			<div class="proj-head">
+				Distributed System - Peer-to-Peer Maze Game [NUS, 2015]
+			</div>
+			<div class="proj-body">
+				As part of Distributed Systems module, we had to build a 2D maze game in a distributed environment. Game comprised of a 2D grid with some treasures on randomly selected cells. Remote players can connect and traverse on the grid to capture maximum number of treasures. We developed Server Client architecture first. Then we upgraded it to Peer-to-Peer architecture with one of the players active as primary server. We also handled various cases where primary or any of the player could fail. We used Remote Method Invocation API in Java.
+				<div class="proj-technology">
+					</br>Technology used:
+						<ul>
+							<li>Java (RMI) </li>
+						</ul>
+				</div>
+			</div>
+			</li>
+
+			<li>
+			<div class="proj-head">
+				Web Security - Cross Site Request Forgery scanner [NUS, 2015]
+			</div>
+			<div class="proj-body">
+				This was semester project for Web Security module that I signed up for. As part of this, we developed a scanner that points out all the CSRF injection points in a website. The design of this scanner is modular, with 4 separate stages. First stage crawls all the pages of a website and points out all the plausible injection points, second stage gives all the payloads for each injection point, third stage verifies if a combination of injection point and payload is a valid attack vector and forth stage generates selenium scripts. These selenium scripts show the attack in an automated fashion. Code for the final scanner is available on my github account.
+				<div class="proj-technology">
+					</br>Technology used:
+						<ul>
+							<li>Python</li>
+							<li>Scrapy</li>
+							<li>Selenium</li>
+						</ul>
+				</div>
+			</div>
+			</li>
+
+			<li>
+			<div class="proj-head">
+				PlaceR: A place recommendation system [NUS, 2015]
+			</div>
+			<div class="proj-body">
+				This was a business analytics project. We though of developing something that would help tourists visiting a new place. We designed and developed a place recommendation system. Recommendation is based on user's interest devised from his twitter account. To do this, we fetch their tweets and apply some NLP and text processing techniques like tokenization, key word identification etc. This system is developed as separate modules and can be plugged into other social sensors for precise interest gathering. For this project, we only used twitter.
+				<div class="proj-technology">
+					</br>Technology used:
+						<ul>
+							<li>Python</li>
+							<li>Java</li>
+							<li>NLP</li>
+							<li>Image Processing </li>
+						</ul>
+				</div>
+			</div>
+			</li>
+
+			<li>
+			<div class="proj-head">
+				Website for a professional doctor [NUS, 2015]
+			</div>
+			<div class="proj-body">
+				I am working on design and development of a <a href="http://www.bhavnagandhi.com/">website</a> for a professional doctor. Currently the 
+				website is in its initial phase with a minimalistic release. More pages to allow consulting patients to interact with the <a href="http://www.bhavnagandhi.com/">website</a> are to be added. This website is developed using a Content Management System.
+				<div class="proj-technology">
+					</br>Technology used:
+						<ul>
+							<li>Joomla</li>
+							<li>Javascript</li>
+						</ul>
+				</div>
+			</div>
+			</li>
+
+			<li>
+			<div class="proj-head">
+				OwnCloud - Added shared comment feature [NUS, 2015]
+			</div>
+			<div class="proj-body">
+				Implemented several features in OwnCloud application (a web platform for sharing files). One feature was a tour of the application that would guide new users on how to upload and edit documents. Another feature as - a user could invite another user to comment on a particular file. Then both users could simultaneously comment on the file and see each other's comment. Also, a list of online users was populated on the interface.
+				<div class="proj-technology">
+					</br>Technology used:
+						<ul>
+							<li>PHP</li>
+							<li>JavaScript</li>
+							<li>AJAX</li>
+						</ul>
+				</div>
+			</div>
+			</li>
+
+			<li>
+			<div class="proj-head">
+				Computer Vision: 3D reconstruction of a scene from single 2D image [NUS, 2014]
+			</div>
+			<div class="proj-body">
+				Developed and implemented an algorithm to construct 3D view of a 2D image of a scene. A very famous concept from the field of computer vision - perspective and orthographic projection model - was used. Also developed a GUI using PyQt to input an image and provide initial data for processing. A background script written in Python constructed different frames showing 3D view of the input image. These frames were then combined to form a video.
+				<div class="proj-technology">
+					</br>Technology used:
+						<ul>
+							<li>Python</li>
+							<li>GUI Development: PyQt</li>
+							<li>OpenCV</li>
+							<li>Camera Projection Models (Computer Vision)</li>
+						</ul>
+				</div>
+			</div>
+			</li>
+
+			<li>
+			<div class="proj-head">
+				Android: Incog Private Information Protection - IP2 [NUS, 2014]
+			</div>
+			<div class="proj-body">
+				Studied Android system and what are the current vulnerabilities it is. To tackle those vulnerabilities we developed an application that allows users to run a particular application in Incognito mode. This mode is something similar to browser incognito mode only with added features. This provides protection to the application against attacks. 
+				<div class="proj-technology">
+					</br>Technology used:
+						<ul>
+							<li>Android development</li>
+							<li>Content Provider and Account Manager - Android System</li>
+						</ul>
+				</div>
+			</div>
+			</li>
+
+			<li>
+			<div class="proj-head">
+				Autonomous Robotics: CATABOT [NIT Bhopal, 2011]
+			</div>
+			<div class="proj-body">
+				Designed and developed an autonomous robot with capability of calculating appropriate amount of force to throw a ball into a basket attached to a pole. Idea behind this work was to develop an autonomous agent that could play basket ball with some information pre-loaded in its controller.
+				<div class="proj-technology">
+					</br>Technology used:
+						<ul>
+							<li>Micro-controller Programming in C</li>
+							<li>Image Processing in MATLAB</li>
+							<li>Autonomous Grid Solver</li>
+						</ul>
+				</div>
+			</div>
+			</li>
+
+			<li>
+			<div class="proj-head">
+				Embedded System: Synchronous Data Acquisition System [NIT Bhopal, 2012]
+			</div>
+			<div class="proj-body">
+				Data Acquisition System to read varying data from Antenna encoders to calculate the azimuthal angle of shaft of the device connected to the encoder.
+				<div class="proj-technology">
+					</br>Technology used:
+						<ul>
+							<li>Embedded Systems</li>
+							<li>Micro-controller programming in C</li>
+							<li>GUI development in C#</li>
+						</ul>
+				</div>
+			</div>
+			</li>
+
+			<li>
+			<div class="proj-head">
+				Digital Clock [NIT Bhopal, 2010]
+			</div>
+			<div class="proj-body">
+				This is a project i developed during  sem break of 2nd year of my under graduation. I wanted to learn more about microcontroller and how we can program them to develop specific products. I started thinking of replicating something that we use very often. Thats when developing a digital clock came into my mind. I had also done some work on interfacing a 16x2 LCD display with microcontroller so i was sure that I would use that as a display interface. Next I developed and implemented an algorithm for the clock. I wrote this code in C and programmed microcontroller with it.
+				<div class="proj-technology">
+					</br>Technology used:
+						<ul>
+							<li>Algorithm</li>
+							<li>C programming</li>
+							<li>Micro controller</li>
+							<li>LCD interfacing with Micro controller</li>
+						</ul>
+				</div>
+			</div>
+			</li>
+
+
+			<li>
+			<div class="proj-head">
+				Motion Planning for Robots: Particle RRT Algorithm [NUS, 2014]
+			</div>
+			<div class="proj-body">
+				Studied research paper on Rapidly Exploring Random Tree (RRT) algorithm and particle-RRT (p-RRT) algorithms for motion planning of autonomous robots. Implemented p-RRT using C++  for a demo environment. Also studied its run time based on tree size.
+				<div class="proj-technology">
+					</br>Technology used:
+						<ul>
+							<li>RRT, p-RRT algorithms</li>
+							<li>C++</li>
+						</ul>
+				</div>
+			</div>
+			</li>
+
+			<li>
+			<div class="proj-head">
+				ASP.NET with C#: Online Mobile Phone Store [NIT Bhopal, 2010]
+			</div>
+			<div class="proj-body">
+				Developed a website that facilitated mobile phone shopping. Website was developed using ASP.NET with C#. Data was stored in a data base via MySQL.
+				<div class="proj-technology">
+					</br>Technology used:
+						<ul>
+							<li>ASP.NET</li>
+							<li>C#</li>
+							<li>MySQL</li>
+							<li>HTML</li>
+						</ul>
+				</div>
+			</div>
+			</li>
+
+		</ul>
+	</div>
+	<div class="body-right">
+				<div class="img-cont">
+					<img src="harshul_pic_2.JPG" alt="Harshul Gandhi"/>
+				</div>
+				<div>
+					<p>Born : 3<sup>rd</sup> February,1991</p>
+					<p class="mail-head">Email
+						<p class="mail">Work : <a href="mailto:hgandhi@comp.nus.edu.sg">hgandhi@comp.nus.edu.sg</a></p>
+						<p class="mail">Other : <a href="mailto:gandhi.harshul.88@gmail.com">gandhi.harshul.88@gmail.com</a></p>
+					</p>
+					<div id="social-cont">
+						<a title="Facebook" class="social-link facebook" target="_blank" href="https://www.facebook.com/harshul.gandhi">
+							<div class="link-img">f</div>
+							<div class="link-text">Stalk Me</div>
+						</a>
+						<a title="LinkedIn" class="social-link linkedin" target="_blank" href="https://sg.linkedin.com/in/harshulgandhi">
+							<div class="link-img">in</div>
+							<div class="link-text">Hire Me</div>
+						</a>
+						<a title="Quora" class="social-link quora" target="_blank" href="http://www.quora.com/Harshul-Gandhi">
+							<div class="link-img">Q</div>
+							<div class="link-text">Vote Me</div>
+						</a>
+						<a title="Twitter" class="social-link twitter" target="_blank" href="https://twitter.com/harshulgandhi">
+							<div class="link-img">t</div>
+							<div class="link-text">Follow Me</div>
+						</a>						
+					</div>
+				</div>
+			</div>
+	</div>
+	<!--div class="item">
+		Text goes in here. Text goes in here. Text goes in here. Text goes in here. Text goes in here. Text goes in here. Text goes in here. Text goes in here.
+		Text goes in here. Text goes in here. Text goes in here. Text goes in here. Text goes in here. Text goes in here. Text goes in here. Text goes in here.
+	</div>
+
+	<div class="item">
+		This is to test multiple entries. This is to test multiple entries. This is to test multiple entries. This is to test multiple entries. This is to test multiple entries. This is to test multiple entries. This is to test multiple entries. This is to test multiple entries. This is to test multiple entries. This is to test multiple entries. This is to test multiple entries. This is to test multiple entries. This is to test multiple entries. This is to test multiple entries. 
+	</div-->
+	<script>
+	$(function(){ /* to make sure the script runs after page load */
+
+	$('.proj-body').each(function(event){ /* select all divs with the item class */
+	
+		var max_length = 150; /* set the max content length before a read more link will be added */
+		
+		if($(this).html().length > max_length){ /* check for content length */
+			
+			var short_content 	= $(this).html().substr(0,max_length); /* split the content in two parts */
+			var long_content	= $(this).html().substr(max_length);
+			
+			$(this).html(short_content+
+						 '<a href="#" class="read_more"> know more</a>'+
+						 '<span class="more_text" style="display:none;">'+long_content+'</span>'+'</br><a href="#" class="read_less" style="display:none"> know less</a>'); /* Alter the html to allow the read more functionality */
+						 
+			$(this).find('a.read_more').click(function(event){ /* find the a.read_more element within the new html and bind the following code to it */
+ 
+				event.preventDefault(); /* prevent the a from changing the url */
+				$(this).hide(); /* hide the read more button */
+				$(this).parents('.proj-body').find('.more_text').show(); /* show the .more_text span */
+		 		$(this).parents('.proj-body').find('.read_less').show(); /* show the .more_text span */
+			});
+
+			$(this).find('a.read_less').click(function(event){ /* find the a.read_more element within the new html and bind the following code to it */
+ 
+				event.preventDefault(); /* prevent the a from changing the url */
+				$(this).hide(); /* hide the read more button */
+				$(this).parents('.proj-body').find('.read_more').show(); /* show the .more_text span */
+				$(this).parents('.proj-body').find('.more_text').hide(); /* show the .more_text span */
+		 
+			});
+			
+		}
+		
+	});
+ 
+ 
+});
+</script>
+</body>
+</html>
